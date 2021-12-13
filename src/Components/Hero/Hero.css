@@ -1,0 +1,66 @@
+.Hero {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  align-items: center;
+  justify-content: space-between;
+
+  position: absolute;
+  width: 1180px;
+  height: 559px;
+  left: 130px;
+  top: 171px;
+}
+
+.HeroContainer {
+  display: grid;
+  align-content: space-between;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  width: 489px;
+  height: 477px;
+}
+
+.Hero > img {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.HeroContainer > h1 {
+  margin: 0;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 86px;
+  line-height: 88px;
+
+  letter-spacing: -1px;
+  color: #2f2e41;
+}
+
+.HeroContainer > p {
+  margin: 0;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+
+  color: #9893a3;
+}
+
+.HeroContainer > button {
+  width: 140px;
+  height: 51px;
+
+  background: #6c63ff;
+  border: 1px solid #6c63ff;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #ffffff;
+}

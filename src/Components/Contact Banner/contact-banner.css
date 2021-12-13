@@ -1,0 +1,51 @@
+.ContactBanner {
+  position: absolute;
+  width: 732px;
+  height: 128px;
+  left: 270px;
+  top: 4784px;
+  background: #2f2e41;
+  border-radius: 2px;
+  padding: 84px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ContactBanner > h2 {
+  margin: 0;
+  width: 346px;
+  height: 128px;
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 56px;
+
+  color: #ffffff;
+}
+
+.ContactBanner > button {
+  width: 186px;
+  height: 54px;
+  left: 546px;
+  top: 37px;
+
+  background: #6c63ff;
+
+  border: 1px solid #6c63ff;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  grid-column-start: 3;
+  grid-column-end: 4;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+
+  color: #ffffff;
+}

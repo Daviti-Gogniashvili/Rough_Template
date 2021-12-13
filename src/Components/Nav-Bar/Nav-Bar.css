@@ -1,0 +1,102 @@
+.nav-bar {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 1280px;
+  height: 51px;
+  left: 80px;
+  top: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 78.08px;
+  height: 28.49px;
+}
+
+.logo > p {
+  font-size: 1.3em;
+  height: 28.49px;
+  line-height: 28.49px;
+  font-weight: 680;
+}
+
+.list {
+  display: flex;
+  width: 418px;
+  height: 32px;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.list > li {
+  list-style: none;
+  margin-left: 0;
+}
+
+.list span {
+  height: 22px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #9893a3;
+}
+
+.list a {
+  text-decoration: none;
+}
+
+.Login_Register {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 258px;
+  height: 51px;
+}
+
+.Login_Register > #LRButton1 {
+  width: 102px;
+  height: 51px;
+
+  border: 1px solid #6c63ff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background-color: transparent;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+
+  color: #6c63ff;
+}
+
+.Login_Register > #LRButton2 {
+  width: 140px;
+  height: 51px;
+
+  background: #6c63ff;
+  border: 1px solid #6c63ff;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: #ffffff;
+}

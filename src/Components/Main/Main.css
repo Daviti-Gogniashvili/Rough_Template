@@ -1,0 +1,492 @@
+.Main {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  vertical-align: top;
+  width: 1438px;
+  height: 3713.47px;
+  top: 850px;
+  padding: 0;
+}
+
+.Partners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+
+  width: 900px;
+  height: 35.42px;
+}
+
+.Section {
+  align-items: center;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 1180px;
+  height: 442.78px;
+  padding: 0;
+}
+
+.SectionContainer {
+  display: grid;
+  justify-content: space-between;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  height: 309px;
+  width: 400px;
+}
+
+.SectionContainer > h2 {
+  margin: 0;
+
+  font-family: Playfair Display;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: left;
+
+  color: #2f2e41;
+}
+
+.SectionContainer > p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+
+  color: #9893a3;
+}
+
+.SectionContainer > button {
+  width: 100px;
+  height: 20px;
+  background: transparent;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  border: none;
+
+  letter-spacing: -1px;
+  color: #2f2e41;
+}
+
+.Section2 {
+  align-items: center;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 1180px;
+  height: 442.78px;
+  padding: 0;
+}
+
+.Section2 > img {
+  grid-column-start: 3;
+  grid-column-end: 4;
+}
+
+.Section2Container {
+  display: grid;
+  justify-content: space-between;
+  height: 300px;
+  width: 400px;
+}
+
+.Section2Container > h2 {
+  margin: 0;
+
+  font-family: Playfair Display;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -1px;
+  text-align: left;
+
+  color: #2f2e41;
+}
+
+.Section2Container > p {
+  width: 380px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 34px;
+
+  color: #9893a3;
+}
+
+.Section2Container > button {
+  width: 100px;
+  height: 20px;
+  background: transparent;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  border: none;
+
+  letter-spacing: -1px;
+  color: #2f2e41;
+}
+
+.Pricing {
+  grid-template-rows: auto auto auto;
+  text-align: center;
+  justify-content: space-between;
+  display: grid;
+  width: 1180px;
+  height: 656px;
+  row-gap: 90px;
+}
+
+.Pricing > h2 {
+  margin: 0;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  height: 64px;
+  font-size: 60px;
+  line-height: 64px;
+
+  letter-spacing: -1px;
+  color: #2f2e41;
+}
+
+.PricingCardsGrid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: space-between;
+  width: 1180px;
+  height: 502px;
+}
+
+.card {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  row-gap: 30px;
+  align-content: center;
+  justify-content: center;
+  width: 363px;
+  height: 421px;
+  left: 0px;
+  top: 40.5px;
+
+  background: rgba(236, 235, 255, 0.3);
+  border-radius: 2px;
+}
+
+.card > p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  height: 26px;
+  line-height: 26px;
+  margin: 0;
+
+  text-align: center;
+  color: #717082;
+}
+
+.card > h2 {
+  margin: 0;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 56px;
+  height: 56px;
+
+  text-align: center;
+  letter-spacing: -2px;
+  color: #2f2e41;
+}
+
+.card > h2 > span {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+
+  color: #717082;
+}
+
+.card > .textC {
+  align-items: center;
+  width: 198px;
+  height: 106px;
+  display: grid;
+  row-gap: 14px;
+  align-content: center;
+  justify-content: center;
+}
+
+.card > .textC > p {
+  margin: 0;
+  height: 26px;
+  line-height: 26px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+
+  color: #717082;
+}
+
+.card > .textC > p > span {
+  color: black;
+}
+
+.button {
+  display: grid;
+  width: 198px;
+  height: 51px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button > button {
+  padding: 0;
+  width: 140px;
+  height: 51px;
+  background: transparent;
+
+  border: 1px solid #6c63ff;
+  box-sizing: border-box;
+  border-radius: 2px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 51px;
+
+  color: #6c63ff;
+}
+
+.card1 {
+  color: white;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  row-gap: 40px;
+  align-content: center;
+  justify-content: center;
+  width: 363px;
+  height: 502px;
+  left: 408px;
+  top: 0px;
+
+  background: #6c63ff;
+  border-radius: 2px;
+}
+
+.card1 > p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  height: 26px;
+  line-height: 26px;
+  margin: 0;
+
+  text-align: center;
+}
+
+.card1 > h2 {
+  margin: 0;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 56px;
+  height: 56px;
+
+  text-align: center;
+  letter-spacing: -2px;
+}
+
+.card1 > h2 > span {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.card1 > .textC1 {
+  align-items: center;
+  width: 198px;
+  height: 106px;
+  display: grid;
+  row-gap: 14px;
+  align-content: center;
+  justify-content: center;
+}
+
+.card1 > .textC1 > p {
+  margin: 0;
+  height: 26px;
+  line-height: 26px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.button1 {
+  display: grid;
+  width: 198px;
+  height: 51px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button1 > button {
+  padding: 0;
+  width: 186px;
+  height: 51px;
+  background: white;
+
+  border: 1px solid #6c63ff;
+  border-radius: 2px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 51px;
+
+  color: #6c63ff;
+}
+
+.Blog {
+  display: grid;
+  row-gap: 90px;
+  width: 1180px;
+  height: 576px;
+}
+
+.Heading {
+  width: 1180px;
+  height: 64px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Heading > h2 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  margin: 0;
+  font-size: 60px;
+  height: 64px;
+  line-height: 64px;
+
+  letter-spacing: -1px;
+  color: #2f2e41;
+}
+
+.Heading > button {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  width: 115px;
+  height: 51px;
+  background: transparent;
+
+  border: 1px solid #6c63ff;
+  box-sizing: border-box;
+  border-radius: 2px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+
+  text-align: center;
+  color: #6c63ff;
+}
+
+.Content {
+  width: 1180px;
+  height: 422px;
+  display: grid;
+  grid-template-columns: 363.33px 363.33px 363.33px;
+  column-gap: 45px;
+}
+
+.Content > .card {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  row-gap: 26px;
+  width: 363.33px;
+  height: 422px;
+}
+
+.Content > .card > img {
+  width: 363.33px;
+  height: 232px;
+}
+
+.Content > .card > div {
+  display: grid;
+  row-gap: 6px;
+  width: 363.33px;
+  height: 116px;
+}
+
+.Content > .card > div > h4 {
+  margin: 0;
+  height: 32px;
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30px;
+  letter-spacing: -1px;
+
+  color: #2f2e41;
+}
+
+.Content > .card > div > p {
+  margin: 0;
+  height: 78px;
+  width: 310px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #9893a3;
+}
+
+.Content > .card > a {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  height: 20px;
+  line-height: 20px;
+
+  letter-spacing: -1px;
+  color: #2f2e41;
+  text-decoration: none;
+}
